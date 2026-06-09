@@ -1,0 +1,46 @@
+{
+  "name": "acorn_kid",
+  "source": "source_idle.png",
+  "frame_width": 32,
+  "frame_height": 32,
+  "frames": [
+    "idle_0",
+    "breath",
+    "walk_passing",
+    "signature",
+    "contact_L",
+    "contact_R"
+  ],
+  "animations": {
+    "idle": {
+      "sequence": [
+        "idle_0",
+        "breath",
+        "idle_0",
+        "breath",
+        "idle_0",
+        "breath",
+        "signature",
+        "idle_0",
+        "breath",
+        "idle_0",
+        "breath",
+        "idle_0"
+      ],
+      "fps": 4,
+      "loop": true
+    },
+    "walk": {
+      "sequence": [
+        "contact_L",
+        "contact_L",
+        "walk_passing",
+        "contact_R",
+        "contact_R",
+        "walk_passing"
+      ],
+      "fps": 6,
+      "loop": true
+    }
+  }
+}
