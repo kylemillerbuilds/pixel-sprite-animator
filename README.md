@@ -1,3 +1,8 @@
+[![CI](https://github.com/kylemillerbuilds/pixel-sprite-animator/actions/workflows/ci.yml/badge.svg)](https://github.com/kylemillerbuilds/pixel-sprite-animator/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![No AI at runtime](https://img.shields.io/badge/AI_at_runtime-zero-brightgreen.svg)](#why-no-ai-in-the-animation-step)
+
 # pixel-sprite-animator
 
 One 32x32 idle sprite in. A complete animated character out: breathing idle with a personality beat, an articulated walk cycle, per-frame PNGs, a spritesheet, a manifest, and preview GIFs.
