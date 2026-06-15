@@ -53,6 +53,10 @@ python3 sprite_animator.py --source examples/robot/source_idle.png \
                            --out examples/robot --name robot
 ```
 
+<p align="center">
+  <img src="rig_anatomy.svg" alt="The 32x32 rig contract: head, torso, and legs in known rows" width="900">
+</p>
+
 Your own sprites need to follow the rig contract — feet on row 29, head in the top 13 rows, facing right. The full contract (and how to adapt it to other sizes) is in [POSE_TEMPLATE.md](POSE_TEMPLATE.md). Transparent or magenta backgrounds both work; magenta is keyed automatically.
 
 ## Who made this

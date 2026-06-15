@@ -2,6 +2,10 @@
 
 The animator is a rig, and rigs need anatomy in known places. Source sprites that follow this contract animate correctly; sprites that don't will still run, but the walk articulation lands on the wrong rows.
 
+<p align="center">
+  <img src="rig_anatomy.svg" alt="The 32x32 rig contract: head, torso, and legs in known rows" width="900">
+</p>
+
 ## The 32x32 contract
 
 ```
