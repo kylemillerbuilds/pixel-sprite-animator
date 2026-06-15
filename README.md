@@ -9,8 +9,8 @@ One 32x32 idle sprite in. A complete animated character out: breathing idle with
 
 **Zero AI at runtime.** Every frame is a deterministic pixel transform.
 
-![walk cycle](examples/mushroom/mushroom_walk.gif)
-![idle](examples/mushroom/mushroom_idle.gif)
+![walk cycle](examples/robot/robot_walk.gif)
+![idle](examples/robot/robot_idle.gif)
 
 ## Why no AI in the animation step
 
@@ -49,8 +49,8 @@ pip install numpy pillow pyyaml
 
 # try the included demo creature
 python3 examples/make_demo_sprite.py
-python3 sprite_animator.py --source examples/mushroom/source_idle.png \
-                           --out examples/mushroom --name mushroom
+python3 sprite_animator.py --source examples/robot/source_idle.png \
+                           --out examples/robot --name robot
 ```
 
 Your own sprites need to follow the rig contract — feet on row 29, head in the top 13 rows, facing right. The full contract (and how to adapt it to other sizes) is in [POSE_TEMPLATE.md](POSE_TEMPLATE.md). Transparent or magenta backgrounds both work; magenta is keyed automatically.

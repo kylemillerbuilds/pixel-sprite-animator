@@ -20,5 +20,5 @@ jobs:
       - name: Run demo pipeline
         run: |
           python examples/make_demo_sprite.py
-          python sprite_animator.py --source examples/mushroom/source_idle.png --out /tmp/test_output --name test_sprite
+          python sprite_animator.py --source examples/robot/source_idle.png --out /tmp/test_output --name test_sprite
           ls -la /tmp/test_output/

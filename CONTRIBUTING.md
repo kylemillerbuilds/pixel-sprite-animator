@@ -10,5 +10,5 @@ This is the animation layer extracted from a game project. Contributions are wel
 
 1. Add the synthesis function to `sprite_animator.py`.
 2. Register it in `synthesize_signature_action`.
-3. Test it with the demo sprite: `python examples/make_demo_sprite.py && python sprite_animator.py --source examples/mushroom/source_idle.png --out /tmp/test --name test`
+3. Test it with the demo sprite: `python examples/make_demo_sprite.py && python sprite_animator.py --source examples/robot/source_idle.png --out /tmp/test --name test`
 4. Open a PR with before/after GIFs.
