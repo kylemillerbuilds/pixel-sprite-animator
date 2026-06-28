@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pixel-sprite-animator"
+version = "1.0.0"
+description = "Generate animated characters from a single 32x32 idle sprite"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Kyle Miller", email = "kmiller3104@gmail.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "pillow>=9.0.0",
+    "pyyaml>=6.0",
+]
+
+[tool.setuptools]
+py-modules = ["sprite_animator"]
